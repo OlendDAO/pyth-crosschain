@@ -115,7 +115,7 @@ module pyth::price_info {
         };
     }
 
-    public(friend) fun new_price_info_object(
+    public fun new_price_info_object(
         price_info: PriceInfo,
         ctx: &mut TxContext
     ): PriceInfoObject {
